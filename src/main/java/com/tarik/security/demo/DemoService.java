@@ -15,6 +15,7 @@ public class DemoService {
         Set<String> errorMessages;
         errorMessages = new HashSet<>();
         errorMessages.add("Not Valid Object");
+        errorMessages.add("Not Valid Object To Fuck");
         throw new ObjectNotValidException(errorMessages);
     }
 }

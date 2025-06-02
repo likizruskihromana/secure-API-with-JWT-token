@@ -10,5 +10,5 @@ import java.util.Set;
 @RequiredArgsConstructor
 @AllArgsConstructor
 public class ObjectNotValidException extends RuntimeException{
-    private final Set<String> errorMessages;
+    private Set<String> errorMessages;
 }
